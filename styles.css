@@ -1,0 +1,100 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/18/18/04/panther-7600667_640.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  font-family: Georia, sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 0, .75);
+  width: 80%;
+  height: 175px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  margin: auto;
+}
+
+nav {
+  width: 25%;
+  max-width: 300px; 
+}
+
+.frame {
+  background-color: rgba(0, 0, 0, .75);
+  width: 80%;
+  margin: auto
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.royal-title {
+  text-align: center;
+}
+
+figure {
+  width: 70% vw;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+img{ 
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+figcaption {
+  padding: 10px 80px;
+}
+
+.tribute-link {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.legacy {
+  padding: 10px 10px;
+  text-align: block;
+  margin: 10px 10px;
+}
+
+.backstory {
+  padding: 10px 10px;
+  text-align: block;
+  margin: 10px 10px;
+}
+
+.storylines {
+  padding: 10px 10px;
+  text-align: block;
+  margin: 10px 10px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: yellow;
+}
